@@ -1,0 +1,36 @@
+How to Use Rat Hunter
+
+1. Requirements
+- Python 3.11
+- Internet connection for first-time setup
+
+2. Installation
+- Put main.py, requirements.txt, and setup.bat in the same folder.
+- Double‑click setup.bat
+It will update pip, install the required libraries, and start the tool automatically.
+
+3. Manual Run
+If you want to run it manually:
+python main.py
+
+4. Features
+1 - Scan & Remove Rats
+   Scans TEMP for executable files (.exe, .bat, .vbs, .ps1) and shows:
+   - Process running status
+   - Hidden file status
+   - Network connections (if any)
+   You can choose to remove the file and terminate the process.
+
+2 - Cleanup Temporary Files
+   Deletes all executable files found in TEMP safely.
+
+3 - Credits
+   Shows developer information.
+
+0 - Exit
+   Closes the tool.
+
+5. Notes
+- The tool does not modify any critical system components.
+- All removals happen only after your confirmation.
+- Works on Windows only.
